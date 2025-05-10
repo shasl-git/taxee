@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой вариант</title>
+    <link rel="stylesheet" href="normalyze.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header id="header">
+            <div id="header_logo">
+                <a href="/">
+                    <img src="img/siteLogo.black.svg" alt="Грузоперевозки, грузовое такси">
+                </a>
+            </div>
+            <div id="header_section_info" >
+                <div id="left_section_info">
+                    <div id="i24_7">
+                        <img src="img/24.7.svg" alt="Работаем 24/7 круглосуточно">
+                    </div>
+                    <div>
+                        <div id="left_section_text">
+                            Работаем круглосуточно 24/7
+                        </div>
+                        <div id="left_section_number">
+                            <a href="tel:84994995505">8 (499) 499-55-05</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" id="right_section_info">
+                        <img alt="Telegram" src="img/telegram..svg">
+                        <img alt="Whatsapp" src="img/whatsapp.svg">
+                        <span>Связатся с нами</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="main_wrapper__AfN4m">
+            <section id="main_head">
+                <h1>Грузовое такси по Москве и Московской области</h1>
+            </section>
+            <section id="main_calculate">
+                <form class="orderForm_form__NtMI0">  
+                    <div>
+                        <div id="form1">
+                            <h2>Рассчитать стоимость</h2>
+                            <div id="form1_low">
+                                <div id="form1_low_left">
+                                    <div>
+                                        <div id="form1_low_left_form">
+                                            <div id="form1_low_left_form_header">
+                                                Выберите тип грузового авто:
+                                            </div>
+
+                                            <div id="form1_low_left_form_main">
+                                                <img alt="" loading="lazy" width="220" height="135" src="img/gazel.webp" id="productImage">
+                                                <h3 id="productTitle">Соболь груз\пассажирская </h3>
+                                                <div id="form_main_characteristic">
+                                                    <div class="form_main_characteristic">
+                                                        <span>Объем</span>
+                                                        <span id="productVolume">5 м³</span>
+                                                    </div>
+
+                                                    <div class="form_main_characteristic">
+                                                        <span>Длина</span>
+                                                        <span id="productLength">1.5 м</span>
+                                                    </div>
+
+                                                    <div class="form_main_characteristic">
+                                                        <span>Ширина</span>
+                                                        <span id="productWidth">1.5 м</span>
+                                                    </div>
+
+                                                    <div class="form_main_characteristic">
+                                                        <span>Высота</span>
+                                                        <span id="productHeight">2 м</span>
+                                                    </div>
+
+                                                    <div class="form_main_characteristic">
+                                                        <span>Грузоподъемность</span>
+                                                        <span id="productPayload" >0.99 т</span>
+                                                    </div>
+                                                </div>
+                                                <button id="selectProductButton">Выбрать</button>
+                                                <div id="productSelectionPanel">
+                                                    <div id="radioButtonsContainer">
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="ton-3x"> 3-х тонник
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="ton-5"> 5 тонник
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="gazel-pass"> Газель груз\пассажирская
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="sobol-pass"> Соболь груз\пассажирская
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="gazel-6m"> Газель 6 метров
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="gazel-4m"> Газель 4 метра
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="gazel-3m"> Газель 3 метра
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="porter"> Портер
+                                                        </label><br>
+                                                        <label>
+                                                            <input type="radio" name="vehicle" value="kabluk"> Каблучок
+                                                        </label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+ 
+                                </div>
+
+                                <div id="form1_low_right">
+                                    <h3>Укажите точное время и дату</h3>
+                                    <div id="orderForm_selectDate">
+                                        <div>
+                                            <label>
+                                                <span>Дата:</span>
+                                                <div class="react-datepicker-wrapper">
+                                                    <div class="react-datepicker__input-container">
+                                                        <input type="text" placeholder="ДД.ММ.ГГ" class="" value="">
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div> 
+                                            <label>
+                                                <span>Время:</span>
+                                                <input placeholder="Укажите время" type="time" name="time">
+                                            </label>  
+                                        </div>
+                                    </div>
+                                    <div id="orderForm_options">
+                                        <div>
+                                            <div>Грузчики</div>
+                                            <div>
+                                                <div id="minusButton" >-</div>
+                                                <label>
+                                                    <input id="loadersInput" type="numder" readonly="" name="loaders" value="0">
+                                                </label>
+                                                <div id="plusButton">+</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>Пассажирское место</div>
+                                            <div>
+                                                <label>
+                                                    <input type="radio" name="passenger" value="1">
+                                                    <span class="">Да</span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="passenger" value="0">
+                                                    <span class="">Нет</span>
+                                                </label>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div id="orderForm_address">
+                                        <div>
+                                            <h3>Адрес загрузки</h3>
+                                            <div>
+                                                <input autocomplete="off" placeholder="Введите адрес загрузки" name="address.0.a">
+                                                <p></p>
+                                                <div class="orderForm_map">
+                                                    <img alt="" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="img/map.svg">
+                                                </div>
+                                            </div>
+                                            <span class="orderForm_delete"></span>
+                                        </div>
+                                        <div id="list_adress">
+                                            <h3>Адрес выгрузки</h3>
+                                            <div>
+                                                <input autocomplete="off" placeholder="Введите адрес выгрузки" name="address.1.a">
+                                                <p></p>
+                                                <div class="orderForm_map">
+                                                    <img alt="" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="img/map.svg">
+                                                </div>
+                                            </div>
+                                            <span class="orderForm_delete"></span>
+                                        </div>
+                                    </div>
+                                    <div id="orderForm_addressButton">
+                                        <button class="orderForm_addAddress__FymHe" type="button" id="bottonNewAdress">
+                                            <img alt="" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="img/plus.bcabe876.svg">
+                                            Добавить адрес
+                                        </button>
+                                    </div>
+                                    <div class="orderForm_paymentOption__XJOBj">
+                                        <h3>Выберите вариант оплаты</h3>
+                                        <div>
+                                            <label>
+                                                <input type="radio" name="typePayment" value="1">
+                                                <span class="orderForm_active__fFih8">Наличные</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="typePayment" value="2">
+                                                <span class="">Терминал с водителем</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="typePayment" value="3">
+                                                <span class="">Онлайн</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="typePayment" value="4">
+                                                <span class="">Юридическое лицо с НДС</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="typePayment" value="5">
+                                                <span class="">Юридическое лицо без НДС </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="form2">
+                            <h3>Стоимость вашего заказа</h3>
+                            <div class="orderForm_inputs__VCqmp">
+                                <div>
+                                    <span>Ваше имя *</span>
+                                    <input placeholder="Введите имя" name="fullName">
+                                    <p></p>
+                                </div>
+                                <div>
+                                    <span>Номер телефона *</span>
+                                    <input placeholder="+7 (_ _ _) - _ _ _ - _ _ _ - _ _" name="phone" value="">
+                                    <p></p>
+                                </div>
+                                <div>
+                                    <span>Комментарий</span>
+                                    <textarea name="comment" placeholder="Комментарий"></textarea>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="orderForm_buttons__x7YgS">
+                                <button type="submit">Заказать</button>
+                            </div>
+                            <div class="orderForm_checkbox__CeG1_">
+                                <label>
+                                    <input type="checkbox" name="approve" checked="">
+                                    <span>Согласен на обработку персональных данных</span>
+                                    <p></p>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="main_services__S3Xfz">
+                <h2>Оказываем полный комплекс<br>услуг по <b>перевозке грузов любой сложности</b></h2>
+                <div class="main_top__CVR_A">
+                    <article>
+                        <img alt="Грузоперевозки" loading="lazy" width="275" height="150" decoding="async" data-nimg="1" style="color:transparent"src="img\1.webp">
+                        <h3>Грузоперевозки</h3>
+                        <p>Перевозка и доставка грузов с компанией «Грузовое такси» всегда удобны и безопасны. Мы избавим вас от лишних хлопот. Поможем минимизировать расходы. Позаботимся о сохранности ваших вещей.</p>
+                    </article>
+                    <article>
+                        <img alt="Переезды" loading="lazy" width="279" height="152" decoding="async" data-nimg="1" style="color:transparent" src="img\2.webp">
+                        <h3>Переезды</h3>
+                        <p>Мы быстро и бережно проведем переезд по Москве и Московской области. У нас вы можете заказать комплекс услуг с упаковкой, разборкой и сборкой мебели, а также вывозом мусора после переезда.</p>
+                    </article>
+                    <article>
+                        <img alt="Грузчики" loading="lazy" width="279" height="152" decoding="async" data-nimg="1" style="color:transparent" src="img\3.webp">
+                        <h3>Грузчики</h3>
+                        <p>Мы предоставим вам грузчиков при переезде, покупке мебели, бытовой техники и стройматериалов. Чтобы разгрузить вагон с товарам или, наоборот, подготовить к отправке и погрузить его.</p>
+                    </article>
+                    <article>
+                        <img alt="Упаковка" loading="lazy" width="279" height="152" decoding="async" data-nimg="1" style="color:transparent" src="img\4.webp">
+                        <h3>Упаковка</h3>
+                        <p>Маркировка и упаковка грузов при квартирном или офисном переезде, переезде склада, магазина, предприятия. В любом случае, ваш груз будет доставлен в целости и сохранности!</p>
+                    </article>
+                </div>
+                <div class="main_bottom__pm6av">
+                    <article>
+                        <ul>
+                            <li>Заберём с грузом из магазина</li>
+                            <li>Перевезём тяжёлый и крупногабаритный груз</li>
+                            <li>Организуем междугородние перевозки</li>
+                            <li>Проведем переезд под ключ</li>
+                        </ul>
+                        <a href="/#calculate">Заказать</a>
+                    </article>
+                    <article>
+                        <ul>
+                            <li>Офисный переезд</li>
+                            <li>Квартирный переезд</li>
+                            <li>Дачный переезд</li>
+                            <li>Переезд магазина</li>
+                            <li>Переезд склада</li>
+                        </ul>
+                        <a href="/#calculate">Заказать</a>
+                    </article>
+                    <article>
+                        <ul>
+                            <li>Поднимем на нужный этаж</li>
+                            <li>Разберем и соберем аккуратно мебель</li>
+                            <li>Упакуем и погрузим вещи для перевозки</li>
+                            <li>Уберем мусор из квартиры</li>
+                        </ul>
+                        <a href="/#calculate">Заказать</a>
+                    </article>
+                    <article>
+                        <ul>
+                            <li>Подберем необходимую упаковку для груза</li>
+                            <li>Проведем маркировку и бережно упакуем груз</li>
+                            <li>Составим опись</li>
+                            <li>Обеспечим страховку</li>
+                        </ul>
+                        <a href="/#calculate">Заказать</a>
+                    </article>
+                </div>
+            </section>
+            <section class="main_stock__rGrIa">
+                <h2>Акции</h2>
+                <p>«Грузовое такси» дорожит своими клиентами и поэтому регулярно проводит акции и предоставляет скидки на различные услуги. Каждый маркетинговый ход планируется, исходя из того, что для наших клиентов актуально на сегодняшний день.</p>
+                <div class="main_articles__oVyi8">
+                    <article style="background:url(img/bg.c5fb8d29.png) no-repeat right bottom">
+                        <img alt="Два грузчика" loading="lazy" width="242" height="198" decoding="async" data-nimg="1" style="color:transparent" src="img/1 (1).webp">
+                        <div>
+                            <h3>Два грузчика</h3>
+                            <p>При заказе машины и грузчика,<br>второй грузчик - СО СКИДКОЙ!</p>
+                            <a href="/#calculate">Узнать больше</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img alt="Ночью дешевле" loading="lazy" width="240" height="186" decoding="async" data-nimg="1" style="color:transparent" src="img/2 (1).webp">
+                        <div>
+                            <h3>Ночью дешевле</h3>
+                            <p>Заказы после 20.00<br>дают дополнительные 10 % скидки</p>
+                            <a href="/#calculate">Узнать больше</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img alt="Логистика" loading="lazy" width="242" height="199" decoding="async" data-nimg="1" style="color:transparent" src="img/3 (1).webp">
+                        <div>
+                            <h3>Логистика</h3>
+                            <p>При заказе доставки из Москвы<br>в Санкт-Петербург и обратно,<br>обратная доставка - В ПОДАРОК</p>
+                            <a href="/#calculate">Узнать больше</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img alt="Скидки по картам" loading="lazy" width="240" height="199" decoding="async" data-nimg="1" style="color:transparent" src="img/4 (1).webp">
+                        <div>
+                            <h3>Скидки по картам</h3>
+                            <p>Держателям карты полагается дополнительная скидка<br>на грузоперевозки</p>
+                            <a href="/#calculate">Узнать больше</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="main_order__Nh_kN">
+                <div>
+                    <h2>Заказать услуги грузового такси</h2>
+                    <form class="lightOrderForm_form__2E0EA">
+                        <div>
+                            <div>
+                                <span>Имя / Название организации *</span>
+                                <input placeholder="Введите имя" name="fullName">
+                                <p></p>
+                            </div>
+                            <div>
+                                <span>Номер телефона *</span>
+                                <input placeholder="+7 (_ _ _) - _ _ _ - _ _ _ - _ _" name="phone" value="">
+                                <p></p>
+                            </div>
+                            <div>
+                                <span>E-mail</span>
+                                <input placeholder="Введите email" name="email">
+                                <p></p>
+                            </div>
+                            <div>
+                                <button type="submit">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="lightOrderForm_checkbox__402__">
+                            <label>
+                                <input type="checkbox" name="approve" checked="">
+                                <span>Согласен на обработку персональных данных</span>
+                                <p></p>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="main_bottom__pm6av">
+                        <article>
+                            <h3>Прозрачно</h3>
+                            <p>Цена от 900 ₽ без скрытых наценок</p>
+                        </article>
+                        <article>
+                            <h3>Пунктуально</h3>
+                            <p>Подача авто за час в любой район</p>
+                        </article>
+                        <article>
+                            <h3>Выгодно</h3>
+                            <p>Минимальный заказ всего 2 часа</p>
+                        </article>
+                        <article>
+                            <h3>Удобно</h3>
+                            <p>Доступны в любое время суток</p>
+                        </article>
+                    </div>
+                </div> 
+            </section>
+            <section class="main_info__vr19J">
+                <article>
+                    <img  loading="lazy" width="38" height="38" decoding="async" data-nimg="1"src="img/image_money.webp">
+                    <h3>Работаем с НДС</h3>
+                    <p>Заключение договора. Оформление с НДС и БЕЗ. Выгодные условия сотрудничества</p>
+                </article>
+                <article>
+                    <img alt="Закрывающие документы" loading="lazy" width="38" height="38" decoding="async" data-nimg="1" style="color:transparent"src="img/image_doki.webp">
+                    <h3>Закрывающие документы</h3>
+                    <p>Вовремя предоставляем закрывающие документы, при необходимости направляем курьером</p>
+                </article>
+                <article>
+                    <img alt="Хранение груза" loading="lazy" width="38" height="38" decoding="async" data-nimg="1" style="color:transparent" src="img/image_boxes.webp">
+                    <h3>Хранение груза</h3>
+                    <p>Ответственное хранение груза на наших складах на выгодных для вас условиях</p>
+                </article>
+                <article>
+                    <img alt="Постоплата" loading="lazy" width="38" height="38" decoding="async" data-nimg="1" style="color:transparent" src="img/image_card.webp">
+                    <h3>Постоплата</h3>
+                    <p>Постоплата по договору от 2 до 24 рабочих дней</p>
+                </article>
+                <article>
+                    <img alt="Скидка и предоплата" loading="lazy" width="38" height="38" decoding="async" data-nimg="1" style="color:transparent" src="img/image_sale.webp">
+                    <h3>Скидка и предоплата</h3>
+                    <p>При предоплате 50%, даем скидку на все наши услуги</p>
+                </article>
+            </section>
+            <section id="main_map"></section>
+                
+            
+        </div>
+        <footer class="siteFooter_footer__m4D1S">
+            <div class="siteFooter_wrapper__G1swN">
+                <div>
+                    <div>
+                        <a href="/">
+                            <img alt="Грузоперевозки, грузовое такси" loading="lazy" width="206" height="135" decoding="async" data-nimg="1" style="color:transparent" src="img/siteLogo.white.svg">
+                        </a>
+                    </div>
+                    <div>
+                        <div>Горячая линия 24/7</div>
+                        <div>
+                            <a href="tel:84994995505">8 (499) 499-55-05</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>ИП Накохов Мурид Мухамедович<br>ИНН: 091801005056<br>Юридический адрес:<br>Карачаево-Черкесская Республика, Абазинский р-н, аул Эльбурган, ул. Набережная, д.1<br>Фактический адрес:<br>Москва г, вн.тер. г. внутригородская территория муниципальный округ Лефортово, ул Энергетическая, д. 20, ком. 16</div>
+                    <div>Банковские реквизиты:<br>Банк: ТОЧКА ПАО БАНКА "ФК ОТКРЫТИЕ" г.Москва<br>БИК: 044525999<br>р/с: 40802810702500145316<br>к/с: 30101810845250000999</div>
+                    <div>Сайт www.gruzovoe-taxi.com собирает метаданные каждого пользователя (cookie, данные об IP-адресе и местоположении) для полноценного функционирования сайта. Если Вы против обработки этих данных, просьба покинуть сайт.</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
