@@ -1,0 +1,1 @@
+This repository contains the main files for the cargo taxi website. In the process, html, css, js files and css normalization have been added. In the future, the functionality will be improved using js.
